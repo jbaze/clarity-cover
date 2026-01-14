@@ -201,3 +201,13 @@
     transform: scale(1);
   }
 }
+
+/* Gradient radial utility */
+.bg-gradient-radial {
+  background: radial-gradient(circle, var(--tw-gradient-stops));
+}
+
+/* ML prefix for chat-like indentation */
+.ml-13 {
+  margin-left: 3.25rem;
+}
